@@ -40,4 +40,4 @@ jobs:
 
     - name: Perform scanning
       if: matrix.tool == 'grype'
-      run: grype --fail-on high ./target/
+      run: grype --fail-on high ./target/spring-petclinic-2.6.0-SNAPSHOT.jar
